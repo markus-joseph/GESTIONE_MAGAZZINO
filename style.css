@@ -1,0 +1,240 @@
+/*FONT GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Yrsa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input{
+    text-transform: lowercase;
+}
+
+html{
+    font-size: 100%;
+}
+
+/*GENERAL RULES*/
+body{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Yrsa', serif;
+    background-image: linear-gradient(
+  45deg,
+  hsl(188deg 71% 40%) 0%,
+  hsl(188deg 52% 46%) 15%,
+  hsl(188deg 42% 51%) 29%,
+  hsl(188deg 41% 55%) 42%,
+  hsl(188deg 39% 59%) 53%,
+  hsl(187deg 38% 62%) 60%,
+  hsl(187deg 37% 66%) 64%,
+  hsl(186deg 36% 70%) 68%,
+  hsl(186deg 35% 73%) 72%,
+  hsl(185deg 34% 77%) 75%,
+  hsl(184deg 33% 80%) 79%,
+  hsl(183deg 32% 84%) 83%,
+  hsl(183deg 31% 87%) 87%,
+  hsl(182deg 29% 91%) 91%,
+  hsl(181deg 26% 95%) 96%,
+  hsl(180deg 11% 98%) 100%
+);
+}
+
+
+/*CONTAINER FORM*/
+.container-form{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*CONTAINER TITLE*/
+.container-title{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+/*TITLE H1 ELEMENT*/
+.container-title > h1{
+    width: 50px;
+    height: 10px;
+    font-size: 40px;
+    word-wrap: break-word;
+    letter-spacing: 60px;
+}
+
+/*Form element*/
+.form-gm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3em;
+}
+
+/*RULES GENERAL INPUT INTO FORM-GM*/
+.form-gm input{
+    font-size: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+/*BUTTON SUBMIT*/
+.submit{
+    margin-top: 40px;
+}
+
+/*container list product*/
+.container-product{
+    position: relative;
+    width: 100vw;
+    height: 800px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+   
+}
+
+/*container-modified-product*/
+.container-modified-product{
+    position: absolute;
+    z-index: 100;
+    background-image: linear-gradient(
+  45deg,
+  hsl(188deg 71% 40%) 0%,
+  hsl(188deg 52% 46%) 15%,
+  hsl(188deg 42% 51%) 29%,
+  hsl(188deg 41% 55%) 42%,
+  hsl(188deg 39% 59%) 53%,
+  hsl(187deg 38% 62%) 60%,
+  hsl(187deg 37% 66%) 64%,
+  hsl(186deg 36% 70%) 68%,
+  hsl(186deg 35% 73%) 72%,
+  hsl(185deg 34% 77%) 75%,
+  hsl(184deg 33% 80%) 79%,
+  hsl(183deg 32% 84%) 83%,
+  hsl(183deg 31% 87%) 87%,
+  hsl(182deg 29% 91%) 91%,
+  hsl(181deg 26% 95%) 96%,
+  hsl(180deg 11% 98%) 100%
+);
+    width: 1531px;
+    height: 600px;
+    top: 114px;
+    -webkit-box-shadow: 7px 5px 14px 5px rgba(97,97,97,0.68); 
+    box-shadow: 7px 5px 14px 5px rgba(97,97,97,0.68);
+}
+
+/*container-modified-product - javascript open div*/
+
+.cmp-hide{
+    display: none;
+}
+
+/*container product element*/
+.container-product-element{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.container-product-element > h1{
+    text-align: center;
+}
+
+/*table product - start*/
+table{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+caption{
+    font-size: 30px;
+}
+
+tr{
+    height: 20px;
+}
+
+th{
+    font-size: 30px;
+    margin-right: 25px;
+}
+
+td{
+    font-size: 30px;
+    width: 10%;
+    height: 10%;
+}
+
+/*table product - end*/
+
+/*container-tool-element*/
+.container-tool-element{
+    width: 100vw;
+    height: 800px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+/*Container tool element input && button*/
+.form-delete-session >input,.button-mod-element{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/*Container tool element input && button:hover-effect*/
+.form-delete-session >input:hover,
+.button-mod-element:hover,
+.submit:hover{
+    background: darkgrey;
+    transition: all 1s ease-in-out;
+    
+}
+
+/*close this modified*/
+.close-this-modifiel{
+    background: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*GENERAL RULES IMG WIDTH*/
+.close-this-modifiel img{
+    width: 3%;
+}
+
+/*TITLE WINDOW H1 - CLOSE*/
+.container-title-windows > h1{
+    color: black;
+    margin-left: 10px;
+}
+
+/*CONTAINER PHP CODE MODIFIED*/
+.container-php-code-modified{
+    width: 100%;
+    height: 93%;
+    border: 1px solid #000;
+    text-align: center;
+}
+
